@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: zollen
+Build-Jdk: 1.8.0_211
+Implementation-Title: Java T-SNE
+Implementation-Version: 2.5.0-KONGS
+Implementation-Vendor-Id: com.jujutsu.tsne
+Created-By: Maven Integration for Eclipse
+Implementation-Build: 
+
