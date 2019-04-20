@@ -91,6 +91,7 @@ public class MemOptimizedTSne extends FastTSne {
 			// Compute pairwise affinities
 			CommonOps_DDRM.elementPower(Y, 2, sqed);
 			CommonOps_DDRM.sumRows(sqed, sum_Y);
+			CommonOps_DDRM.transpose(sum_Y);
 			CommonOps_DDRM.multAddTransB(-2.0, Y, Y, Ysqlmul);
 			addRowVector(Ysqlmul, sum_Y);
 			CommonOps_DDRM.transpose(Ysqlmul);
